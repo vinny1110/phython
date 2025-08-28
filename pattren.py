@@ -1,4 +1,6 @@
-num = 6
+size = int(input("Enter the size of the square: "))
 
-for i in range(num):
-   print("*"*i)
+for i in range(size):
+    for j in range(size):
+        print("*", end=" ")
+    print()
